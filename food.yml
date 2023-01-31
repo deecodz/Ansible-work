@@ -1,0 +1,13 @@
+---
+- name: Deploy a food-app
+  hosts: n2
+  become: yes 
+
+
+  tasks:
+   - name: Clone a repo
+    git:
+      repo: https://github.com/CeeyIT-Solutions/food.git 
+      dest: /var/www/html
+
+...
