@@ -6,7 +6,7 @@
 
   tasks:
    - name: Clone a repo
-    git:
+     git:
       repo: https://github.com/CeeyIT-Solutions/food.git 
       dest: /var/www/html
 
