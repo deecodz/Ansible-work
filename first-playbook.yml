@@ -8,4 +8,5 @@
     file:
       path: /home/centos/new-dir
       state: directory
+
 ...
