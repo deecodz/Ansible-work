@@ -11,7 +11,7 @@
       state: present
 
   - name: start HTTPD
-   service:
+    service:
       name: httpd
       state: started
 
